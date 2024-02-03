@@ -89,7 +89,7 @@ const Skills = () => {
         </div>
       
       </section>
-      <div className="w-screen h-[600vh]"></div>
+      <div className="w-screen h-[400vh]"></div>
     </>
   );
 };
