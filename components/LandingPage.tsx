@@ -45,8 +45,8 @@ const LandingPage = () => {
       </section>
       <section className="h-[50vh] w-screen flex justify-center items-center">
         <p className="sm:w-2/6 w-[80vw]">
-          Hello! I'm Tim, a 17-year-old enthusiast from Austria, deeply
-          engrossed in the world of IT and Web Development. I'm currently
+          Hello! I&apos;m Tim, a 17-year-old enthusiast from Austria, deeply
+          engrossed in the world of IT and Web Development. I&apos;m currently
           immersing myself in coding and design, eager to unlock new
           possibilities and innovative solutions in this dynamic field.
         </p>

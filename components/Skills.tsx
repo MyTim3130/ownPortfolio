@@ -55,10 +55,10 @@ const Skills = () => {
         <div className=" w-screen sm:w-2/6 flex flex-col justify-evenly items-center mb-5 sm:mb-0 sm:ml-10">
           <h2 className="text-5xl md:text-6xl xl:text-7xl">Photography</h2>
           {isWideScreen && <p>
-            Photography has always been more than just a hobby to me; it's been
+            Photography has always been more than just a hobby to me; it&apos;s been
             a lifelong passion. From capturing the simplest moments to exploring
             the depths of artistic expression through a lens, every click has
-            been a step in my journey of discovery and joy. It's a way to see
+            been a step in my journey of discovery and joy. It&apos;s a way to see
             the world, to freeze time, and to tell stories without words.
           </p>}
           
@@ -74,10 +74,10 @@ const Skills = () => {
 
         <div className="w-screen h-fit flex flex-col items-center sm:hidden">
         {!isWideScreen && <p className="w-[80vw] mb-10">
-            Photography has always been more than just a hobby to me; it's been
+            Photography has always been more than just a hobby to me; it&apos;s been
             a lifelong passion. From capturing the simplest moments to exploring
             the depths of artistic expression through a lens, every click has
-            been a step in my journey of discovery and joy. It's a way to see
+            been a step in my journey of discovery and joy. It&apos;s a way to see
             the world, to freeze time, and to tell stories without words.
           </p>}
           
