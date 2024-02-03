@@ -55,56 +55,56 @@ const ImageScroll = () => {
     <section className="mr-10 flex photos flex-col sm:flex-row -z-50" id="photosLeft">
       <div className="h-fit sm:w-3/6 w-screen flex flex-col items-center">
       <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw] bg-[url(/images/left1.png)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw] bg-[url(/images/left1.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52  sm:h-[50vh] sm:w-[20vw] bg-[url(/images/left2.png)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52  sm:h-[50vh] sm:w-[20vw] bg-[url(/images/left2.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left3.png)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left3.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left4.png)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left4.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left5.png)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left5.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left6.JPG)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left6.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left7.png)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left7.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left8.JPG)] bg-cover rounded-2xl mb-7"></div>
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/left8.webp)] bg-cover rounded-2xl mb-7"></div>
         </div>
       </div>
       
       {isWideScreen && (
         <div className="h-fit photos sm:w-3/6 w-screen flex flex-col items-center" id="photosRight">
           <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right1.JPG)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right1.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right2.JPG)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right2.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right3.JPG)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right3.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right4.JPG)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right4.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right5.JPG)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right5.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right6.jpg)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right6.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right7.jpg)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right7.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
         <div>
-          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right8.JPG)] bg-cover rounded-2xl mb-7"></div>{" "}
+          <div className="h-52 w-52 sm:h-[50vh] sm:w-[20vw]  bg-[url(/images/right8.webp)] bg-cover rounded-2xl mb-7"></div>{" "}
         </div>
 
         </div>
