@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+max-width: 100vw;
+}
+html{
+  overflow-x: hidden;
+}
+
 body{
   overflow-x: hidden;
   background-color: black;

@@ -62,7 +62,7 @@ const Programming = () => {
   }, [loaded]);
   return (
     <>
-      <section className="mt-20 flex sm:justify-between items-center sm:items-start flex-col-reverse sm:flex-row">
+      <section className="mt-20 flex sm:justify-between items-center sm:items-start flex-col-reverse sm:flex-row mb-20">
         <div
           className="w-3/6 grid grid-cols-1 sm:ml-10 mt-20 sm:grid-cols-2 h-fit"
           id="paddingFix"
@@ -183,7 +183,7 @@ const Programming = () => {
         </div>
         <div className="sm:w-3/6 w-screen flex justify-between items-center h-[80vh] flex-col">
           <h2
-            className="text-6xl mt-20 sm:text-4xl md:text-5xl lg:text-6xl"
+            className="text-6xl mt-20 sm:text-4xl md:text-5xl lg:text-6xl font-bold"
             id="programmingTitle"
           >
             Programming

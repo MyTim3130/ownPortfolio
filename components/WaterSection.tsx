@@ -5,7 +5,7 @@ const WaterSection = () => {
   return (
     <>
       <div className="wavesGradient h-[20vh] z-20 w-screen absolute"></div>
-      <section className="h-screen w-screen flex justify-center items-center">
+      <section className="h-screen w-screen flex justify-center items-center" id="ContactMe">
         <h2 className="absolute z-10 text-6xl lg:text-9xl font-extrabold mix-blend-difference mb-96">
           CONTACT ME
         </h2>

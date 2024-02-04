@@ -86,7 +86,7 @@ const Photography = () => {
         <div className="h-[20vh] w-screen absolute z-50 photosGradientTop"></div>
         <div className=" w-screen sm:w-2/6 flex flex-col justify-evenly items-center mb-5 sm:mb-0 sm:ml-10">
           <h2
-            className="text-5xl md:text-6xl xl:text-7xl"
+            className="text-5xl md:text-6xl xl:text-7xl font-bold"
             id="photographyTitle"
           >
             Photography
