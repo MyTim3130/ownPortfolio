@@ -19,14 +19,14 @@ export default function Home() {
 
   return (
     <>
-      {/* <video
+      <video
         autoPlay
         loop
         muted
         className="z-0 fixed h-screen w-screen object-cover opacity-40"
       >
         <source src="/images/texture.mp4" type="video/mp4" />
-      </video> */}
+      </video>
       <Nav></Nav>
 
 

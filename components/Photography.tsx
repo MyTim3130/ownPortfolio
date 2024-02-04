@@ -45,37 +45,37 @@ const Photography = () => {
     };
   }, [isWideScreen]); // Depend on isWideScreen to re-run effect
 
-  useEffect(() => {
-    gsap.fromTo(
-      "#photographyTitle",
-      { x: -500, opacity: 0 },
-      {
-        x: 0,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#photographyTitle",
-          start: "top bottom", // Adjusted for demonstration
-          end: "bottom+=200 bottom",
-          scrub: true,
-        },
-      }
-    );
+  // useEffect(() => {
+  //   gsap.fromTo(
+  //     "#photographyTitle",
+  //     { x: -500, opacity: 0 },
+  //     {
+  //       x: 0,
+  //       opacity: 1,
+  //       scrollTrigger: {
+  //         trigger: "#photographyTitle",
+  //         start: "top bottom", // Adjusted for demonstration
+  //         end: "bottom+=200 bottom",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
 
-    gsap.fromTo(
-      ".photographyText",
-      { x: -500, opacity: 0 },
-      {
-        x: 0,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".photographyText",
-          start: "top top", // Adjusted for demonstration
-          end: "bottom+=400 top",
-          scrub: true,
-        },
-      }
-    );
-  });
+  //   gsap.fromTo(
+  //     ".photographyText",
+  //     { x: -500, opacity: 0 },
+  //     {
+  //       x: 0,
+  //       opacity: 1,
+  //       scrollTrigger: {
+  //         trigger: ".photographyText",
+  //         start: "top top", // Adjusted for demonstration
+  //         end: "bottom+=400 top",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // });
 
   return (
     <>

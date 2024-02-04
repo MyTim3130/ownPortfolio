@@ -8,58 +8,58 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Programming = () => {
-  const [loaded, setLoaded] = useState(false);
+  // const [loaded, setLoaded] = useState(false);
 
-  useEffect(() => {
-    setLoaded(true);
-  });
+  // useEffect(() => {
+  //   setLoaded(true);
+  // });
 
-  useEffect(() => {
-    gsap.fromTo(
-      "#programmingTitle",
-      { x: 500, opacity: 0 },
-      {
-        x: 0,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#programmingTitle",
-          start: "top+=100 bottom", // Adjusted for demonstration
-          end: "bottom+=400 bottom",
-          scrub: true,
-        },
-      }
-    );
+  // useEffect(() => {
+  //   gsap.fromTo(
+  //     "#programmingTitle",
+  //     { x: 500, opacity: 0 },
+  //     {
+  //       x: 0,
+  //       opacity: 1,
+  //       scrollTrigger: {
+  //         trigger: "#programmingTitle",
+  //         start: "top+=100 bottom", // Adjusted for demonstration
+  //         end: "bottom+=400 bottom",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
 
-    gsap.fromTo(
-      "#programmingText",
-      { x: 500, opacity: 0 },
-      {
-        x: 0,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#programmingText",
-          start: "top+=100 bottom", // Adjusted for demonstration
-          end: "bottom+=400 bottom",
-          scrub: true,
-        },
-      }
-    );
+  //   gsap.fromTo(
+  //     "#programmingText",
+  //     { x: 500, opacity: 0 },
+  //     {
+  //       x: 0,
+  //       opacity: 1,
+  //       scrollTrigger: {
+  //         trigger: "#programmingText",
+  //         start: "top+=100 bottom", // Adjusted for demonstration
+  //         end: "bottom+=400 bottom",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
 
-    gsap.fromTo(
-      "#programmingHashtags",
-      { y: 200, opacity: 0 },
-      {
-        y: 0,
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#programmingText",
-          start: "bottom+=100 bottom", // Adjusted for demonstration
-          end: "bottom+=400 bottom",
-          scrub: true,
-        },
-      }
-    );
-  }, [loaded]);
+  //   gsap.fromTo(
+  //     "#programmingHashtags",
+  //     { y: 200, opacity: 0 },
+  //     {
+  //       y: 0,
+  //       opacity: 1,
+  //       scrollTrigger: {
+  //         trigger: "#programmingText",
+  //         start: "bottom+=100 bottom", // Adjusted for demonstration
+  //         end: "bottom+=400 bottom",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
+  // }, [loaded]);
   return (
     <>
       <section className="mt-20 flex sm:justify-between items-center sm:items-start flex-col-reverse sm:flex-row mb-20">
