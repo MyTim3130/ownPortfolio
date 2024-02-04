@@ -110,7 +110,7 @@ const Programming = () => {
               </CardItem>
               <CardItem translateZ="40">
                 <p className="font-normal text-gray-700 dark:text-gray-400 lg:text-sm">
-                  "Stellar Showcase" is a portfolio website that catapults you
+                &quot;Stellar Showcase&quot; is a portfolio website that catapults you
                   into the cosmos, where creativity orbits around a theme of
                   space exploration. This digital universe is a constellation of
                   projects, each shining like a star in the vast expanse of
@@ -138,12 +138,12 @@ const Programming = () => {
               </CardItem>
               <CardItem translateZ="40">
                 <p className="font-normal text-gray-700 dark:text-gray-400 lg:text-sm">
-                  "Der Dümmste Fliegt" website is your gateway to the ultimate
+                &quot;Der Dümmste Fliegt&quot; website is your gateway to the ultimate
                   game of wits, offering a vibrant and interactive platform for
                   players to compete and strategize. Dive into a world where
                   only the smartest survive, and test your intellect in a
-                  dynamic online arena. Join the challenge, avoid being "the one
-                  who flies," and prove your mental mettle.
+                  dynamic online arena. Join the challenge, avoid being &quot;the one
+                  who flies,&quot; and prove your mental mettle.
                 </p>
               </CardItem>
             </CardBody>
@@ -167,7 +167,7 @@ const Programming = () => {
               </CardItem>
               <CardItem translateZ="40">
                 <p className="font-normal text-gray-700 dark:text-gray-400 lg:text-sm">
-                  "Save the Snow Leopards" is a website dedicated to the
+                &quot;Save the Snow Leopards&quot; is a website dedicated to the
                   endangered snow leopards, aiming to raise awareness about
                   their plight due to habitat loss, poaching, and climate
                   change. With compelling visuals and succinct information, we
