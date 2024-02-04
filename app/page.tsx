@@ -34,7 +34,7 @@ export default function Home() {
         <div id="smooth-content">
           <LandingPage></LandingPage>
           <Photography></Photography>
-          {/* <Programming></Programming> */}
+          <Programming></Programming>
           <WaterSection></WaterSection>
         </div>
 
