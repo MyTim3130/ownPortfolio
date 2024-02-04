@@ -168,15 +168,15 @@ const Programming = () => {
             Programming
           </h2>
           <span className="w-4/6" id="programmingText">
-            I've been captivated by programming for nearly seven years, with a
+            I&apos;ve been captivated by programming for nearly seven years, with a
             special love for web development. This field, with its endless
             potential for creativity and innovation, has always been where my
-            passion lies. Yet, my journey hasn't been confined to just one area.
-            I've also developed skills across a range of domains, from database
+            passion lies. Yet, my journey hasn&apos;t been confined to just one area.
+            I&apos;ve also developed skills across a range of domains, from database
             management to software development and even a bit of machine
             learning. This broad skill set enriches my main focus, making me not
             just a programmer, but a problem solver and a lifelong learner.
-            Through this journey, I've realized that my true joy comes from the
+            Through this journey, I&apos;ve realized that my true joy comes from the
             challenge of creating and improving, no matter the platform.
           </span>
           <div className="flex flex-col" id="programmingHashtags">
