@@ -30,15 +30,15 @@ export default function Home() {
       <Nav></Nav>
 
 
-      <div id="smooth-wrapper">
-        <div id="smooth-content">
+      {/* <div id="smooth-wrapper">
+        <div id="smooth-content"> */}
           <LandingPage></LandingPage>
           <Photography></Photography>
           <Programming></Programming>
           <WaterSection></WaterSection>
-        </div>
+        {/* </div>
 
-      </div>
+      </div> */}
     </>
   );
 }
