@@ -18,8 +18,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <video
+    <div className="h-[300vh]">
+      {/* <video
         autoPlay
         loop
         muted
@@ -27,15 +27,15 @@ export default function Home() {
       >
         <source src="/images/texture.mp4" type="video/mp4" />
       </video>
-      <Nav></Nav>
+      <Nav></Nav> */}
 
 
       {/* <div id="smooth-wrapper">
         <div id="smooth-content"> */}
-          <LandingPage></LandingPage>
+          {/* <LandingPage></LandingPage> */}
           <Photography></Photography>
-          <Programming></Programming>
-          <WaterSection></WaterSection>
+          {/* <Programming></Programming> */}
+          {/* <WaterSection></WaterSection> */}
         {/* </div>
 
       </div> */}
