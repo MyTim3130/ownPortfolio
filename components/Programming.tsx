@@ -71,12 +71,12 @@ const Programming = () => {
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
               <CardItem translateZ="20">
                 <Image
-                  className="blur-md"
+                  className="blur-md h-auto w-auto"
                   src="/images/cc-tProject.png"
                   height={1000}
                   width={1000}
                   alt="missing Image"
-                ></Image>
+                />
               </CardItem>
               <CardItem translateZ="70">
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white xl:text-2xl lg:text-xl">
@@ -96,11 +96,12 @@ const Programming = () => {
               <CardItem translateZ="20">
                 <a href="https://space-portfolio-git-main-tinhauslkramper-gmailcom.vercel.app/">
                   <Image
+                    className="w-auto h-auto"
                     src="/images/spaceportfolio.png"
                     height={1000}
                     width={1000}
                     alt="missing Image"
-                  ></Image>
+                  />
                 </a>
               </CardItem>
               <CardItem translateZ="70">
@@ -124,11 +125,12 @@ const Programming = () => {
               <CardItem translateZ="20">
               <a href="https://der-dummste-fliegt.vercel.app/">
                 <Image
+                  className="w-auto h-auto"
                   src="/images/derDuemssteFliegt.png"
                   height={1000}
                   width={1000}
                   alt="missing Image"
-                ></Image>
+                />
                 </a>
               </CardItem>
               <CardItem translateZ="70">
@@ -153,11 +155,12 @@ const Programming = () => {
               <CardItem translateZ="20">
               <a href="https://mytim3130.github.io/SnowLeopards.github.io/index.html">
                 <Image
+                className="w-auto h-auto"
                   src="/images/snowLeopards.png"
                   height={1000}
                   width={1000}
                   alt="missing Image"
-                ></Image>
+                />
                 </a>
               </CardItem>
               <CardItem translateZ="70">
