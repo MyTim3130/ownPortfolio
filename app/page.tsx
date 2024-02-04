@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
+    <div>
       <video
         autoPlay
         loop
@@ -39,6 +39,6 @@ export default function Home() {
         {/* </div>
 
       </div> */}
-    </>
+    </div>
   );
 }
