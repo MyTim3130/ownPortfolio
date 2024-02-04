@@ -1,35 +1,40 @@
-'use client'
+"use client";
 import LandingPage from "@/components/LandingPage";
 import Photography from "@/components/Photography";
 import Programming from "@/components/Programming";
+import WaterSection from "@/components/WaterSection";
 import gsap from "gsap";
-import {ScrollSmoother} from "gsap/ScrollSmoother";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { useEffect } from "react";
 
-gsap.registerPlugin(ScrollSmoother) 
+gsap.registerPlugin(ScrollSmoother);
 export default function Home() {
-  useEffect(()=>{
+  useEffect(() => {
     ScrollSmoother.create({
       smooth: 1,
       effects: true,
     });
-  },[])
-  
-  return (
-   <>
-   <video className="absolute h-screen w-screen" autoPlay muted loop>
-  <source src="/images/texture.mp4" type="video/mp4"></source>
-</video>
+  }, []);
 
-<div id="smooth-wrapper">
-    <div id="smooth-content">
-    <LandingPage></LandingPage>
-      <Photography></Photography>
-      <Programming></Programming>
-    </div>
-   
-  </div>
-      
-   </>
+  return (
+    <>
+      <video
+        autoPlay
+        loop
+        muted
+        className="z-0 fixed h-screen w-screen object-cover opacity-40"
+      >
+        <source src="/images/texture.mp4" type="video/mp4" />
+      </video>
+
+      <div id="smooth-wrapper">
+        <div id="smooth-content">
+          <LandingPage></LandingPage>
+          <Photography></Photography>
+          <Programming></Programming>
+          <WaterSection></WaterSection>
+        </div>
+      </div>
+    </>
   );
 }
