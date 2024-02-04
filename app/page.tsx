@@ -1,6 +1,7 @@
 'use client'
 import LandingPage from "@/components/LandingPage";
-import Skills from "@/components/Skills";
+import Photography from "@/components/Photography";
+import Programming from "@/components/Programming";
 import gsap from "gsap";
 import {ScrollSmoother} from "gsap/ScrollSmoother";
 import { useEffect } from "react";
@@ -16,11 +17,17 @@ export default function Home() {
   
   return (
    <>
+   <video className="absolute h-screen w-screen" autoPlay muted loop>
+  <source src="/images/texture.mp4" type="video/mp4"></source>
+</video>
+
 <div id="smooth-wrapper">
     <div id="smooth-content">
     <LandingPage></LandingPage>
-      <Skills></Skills>
+      <Photography></Photography>
+      <Programming></Programming>
     </div>
+   
   </div>
       
    </>

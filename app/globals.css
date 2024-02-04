@@ -9,3 +9,23 @@ body{
   
 }
 
+.photosGradientTop{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 6%, rgba(255,0,0,0) 100%);
+}
+
+.photosGradientBottom{
+  background: rgb(0,0,0);
+background: linear-gradient(360deg, rgba(0,0,0,1) 6%, rgba(255,0,0,0) 100%);
+}
+
+@media only screen and (max-width: 640px) {
+  .photosGradientTop, .photosGradientBottom {
+    display: none;
+  }
+}
+
+#paddingFix div{
+  padding-top: 0;
+  padding-bottom: 0;
+}
